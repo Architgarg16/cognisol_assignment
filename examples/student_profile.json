@@ -1,0 +1,36 @@
+{
+  "student_id": "demo-student-001",
+  "skill_mastery": {
+    "analytical_thinking": 91,
+    "attention_to_detail": 84,
+    "communication": 76,
+    "data_analysis": 94,
+    "problem_solving": 88,
+    "programming": 89,
+    "quantitative_reasoning": 93,
+    "research": 82
+  },
+  "skill_evidence_counts": {
+    "analytical_thinking": 12,
+    "attention_to_detail": 9,
+    "communication": 8,
+    "data_analysis": 14,
+    "problem_solving": 11,
+    "programming": 13,
+    "quantitative_reasoning": 14,
+    "research": 9
+  },
+  "subject_scores": {
+    "computer_science": 92,
+    "english": 78,
+    "mathematics": 95,
+    "science": 84
+  },
+  "subject_evidence_counts": {
+    "computer_science": 14,
+    "english": 8,
+    "mathematics": 15,
+    "science": 9
+  }
+}
+

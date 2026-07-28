@@ -1,0 +1,195 @@
+{
+  "student_id": "demo-student-001",
+  "model_version": "content-knn-cosine-9386ed732221",
+  "feature_schema_version": "1.0",
+  "generated_at": "2026-07-28T14:58:07.487267+00:00",
+  "eligible_feature_count": 12,
+  "total_feature_count": 20,
+  "ignored_or_low_evidence_features": [],
+  "recommendations": [
+    {
+      "career_id": "data_scientist",
+      "title": "Data Scientist",
+      "description": "Uses statistics, programming, and research to build data-driven products and explanations.",
+      "match_score": 95.02,
+      "confidence_score": 97.69,
+      "alignment_score": 97.77,
+      "proficiency_score": 89.9,
+      "evidence_coverage": 100.0,
+      "candidate_similarity": 90.49,
+      "reasons": [
+        {
+          "feature": "Mathematics",
+          "feature_type": "subject",
+          "student_score": 95.0,
+          "career_importance": 100.0,
+          "contribution": 95.0
+        },
+        {
+          "feature": "Data Analysis",
+          "feature_type": "skill",
+          "student_score": 94.0,
+          "career_importance": 100.0,
+          "contribution": 94.0
+        },
+        {
+          "feature": "Quantitative Reasoning",
+          "feature_type": "skill",
+          "student_score": 93.0,
+          "career_importance": 95.0,
+          "contribution": 88.35
+        }
+      ],
+      "development_gaps": [
+        {
+          "feature": "Research",
+          "feature_type": "skill",
+          "student_score": 82.0,
+          "career_importance": 65.0,
+          "contribution": 11.7
+        },
+        {
+          "feature": "Programming",
+          "feature_type": "skill",
+          "student_score": 89.0,
+          "career_importance": 90.0,
+          "contribution": 9.9
+        },
+        {
+          "feature": "Problem Solving",
+          "feature_type": "skill",
+          "student_score": 88.0,
+          "career_importance": 75.0,
+          "contribution": 9.0
+        }
+      ],
+      "missing_critical_evidence": [],
+      "explanation": "Data Scientist matches the student's demonstrated strength pattern with 100% of the career profile supported by eligible evidence.",
+      "rank": 1
+    },
+    {
+      "career_id": "software_engineer",
+      "title": "Software Engineer",
+      "description": "Designs, implements, tests, and maintains reliable software systems.",
+      "match_score": 91.27,
+      "confidence_score": 89.66,
+      "alignment_score": 95.97,
+      "proficiency_score": 89.97,
+      "evidence_coverage": 90.76,
+      "candidate_similarity": 73.36,
+      "reasons": [
+        {
+          "feature": "Computer Science",
+          "feature_type": "subject",
+          "student_score": 92.0,
+          "career_importance": 100.0,
+          "contribution": 92.0
+        },
+        {
+          "feature": "Programming",
+          "feature_type": "skill",
+          "student_score": 89.0,
+          "career_importance": 100.0,
+          "contribution": 89.0
+        },
+        {
+          "feature": "Problem Solving",
+          "feature_type": "skill",
+          "student_score": 88.0,
+          "career_importance": 100.0,
+          "contribution": 88.0
+        }
+      ],
+      "development_gaps": [
+        {
+          "feature": "Problem Solving",
+          "feature_type": "skill",
+          "student_score": 88.0,
+          "career_importance": 100.0,
+          "contribution": 12.0
+        },
+        {
+          "feature": "Programming",
+          "feature_type": "skill",
+          "student_score": 89.0,
+          "career_importance": 100.0,
+          "contribution": 11.0
+        },
+        {
+          "feature": "Attention To Detail",
+          "feature_type": "skill",
+          "student_score": 84.0,
+          "career_importance": 65.0,
+          "contribution": 10.4
+        }
+      ],
+      "missing_critical_evidence": [],
+      "explanation": "Software Engineer matches the student's demonstrated strength pattern with 91% of the career profile supported by eligible evidence.",
+      "rank": 2
+    },
+    {
+      "career_id": "data_analyst",
+      "title": "Data Analyst",
+      "description": "Transforms data into reliable reports, metrics, and decisions for organizations.",
+      "match_score": 88.75,
+      "confidence_score": 78.1,
+      "alignment_score": 96.53,
+      "proficiency_score": 89.63,
+      "evidence_coverage": 80.99,
+      "candidate_similarity": 73.51,
+      "reasons": [
+        {
+          "feature": "Data Analysis",
+          "feature_type": "skill",
+          "student_score": 94.0,
+          "career_importance": 100.0,
+          "contribution": 94.0
+        },
+        {
+          "feature": "Analytical Thinking",
+          "feature_type": "skill",
+          "student_score": 91.0,
+          "career_importance": 95.0,
+          "contribution": 86.45
+        },
+        {
+          "feature": "Quantitative Reasoning",
+          "feature_type": "skill",
+          "student_score": 93.0,
+          "career_importance": 80.0,
+          "contribution": 74.4
+        }
+      ],
+      "development_gaps": [
+        {
+          "feature": "Communication",
+          "feature_type": "skill",
+          "student_score": 76.0,
+          "career_importance": 65.0,
+          "contribution": 15.6
+        },
+        {
+          "feature": "Attention To Detail",
+          "feature_type": "skill",
+          "student_score": 84.0,
+          "career_importance": 75.0,
+          "contribution": 12.0
+        },
+        {
+          "feature": "Analytical Thinking",
+          "feature_type": "skill",
+          "student_score": 91.0,
+          "career_importance": 95.0,
+          "contribution": 8.55
+        }
+      ],
+      "missing_critical_evidence": [
+        "Business Acumen",
+        "Business"
+      ],
+      "explanation": "Data Analyst matches the student's demonstrated strength pattern with 81% of the career profile supported by eligible evidence.",
+      "rank": 3
+    }
+  ],
+  "disclaimer": "Exploratory educational guidance only. This model does not determine aptitude, admission, or employment suitability."
+}

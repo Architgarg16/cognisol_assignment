@@ -1,0 +1,56 @@
+{
+  "model_version": "content-knn-cosine-9386ed732221",
+  "model_family": "content-knn-cosine",
+  "feature_schema_version": "1.0",
+  "algorithm": "Cosine-distance k-nearest-neighbor candidate generation with evidence-aware deterministic reranking",
+  "career_count": 8,
+  "feature_count": 20,
+  "features": [
+    "skill:analytical_thinking",
+    "skill:attention_to_detail",
+    "skill:business_acumen",
+    "skill:collaboration",
+    "skill:communication",
+    "skill:creativity",
+    "skill:data_analysis",
+    "skill:leadership",
+    "skill:problem_solving",
+    "skill:programming",
+    "skill:quantitative_reasoning",
+    "skill:research",
+    "skill:teaching",
+    "skill:writing",
+    "subject:business",
+    "subject:computer_science",
+    "subject:english",
+    "subject:mathematics",
+    "subject:science",
+    "subject:social_science"
+  ],
+  "minimum_evidence_count_per_feature": 3,
+  "minimum_career_coverage": 0.35,
+  "ranking_formula": {
+    "alignment_weight": 0.65,
+    "proficiency_weight": 0.35,
+    "coverage_penalty": "0.70 + 0.30 * coverage",
+    "confidence": "coverage * evidence_reliability"
+  },
+  "intended_use": "Rank exploratory career paths from demonstrated skill mastery and subject performance in a learning analytics application.",
+  "excluded_features": [
+    "name",
+    "age",
+    "gender",
+    "ethnicity",
+    "disability",
+    "parent identity",
+    "institute identity",
+    "economic status"
+  ],
+  "limitations": [
+    "Career definitions are curated, not learned from labor outcomes.",
+    "Offline benchmark profiles are synthetic sanity checks.",
+    "Scores are not probabilities of career success.",
+    "Sparse evidence lowers confidence and can suppress ranking.",
+    "The catalog and model require expert review before real use."
+  ]
+}

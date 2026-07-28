@@ -1,0 +1,249 @@
+{
+  "profiles": [
+    {
+      "student_id": "benchmark-data-science",
+      "expected_top_1": "data_scientist",
+      "skill_mastery": {
+        "analytical_thinking": 94,
+        "data_analysis": 96,
+        "problem_solving": 88,
+        "programming": 91,
+        "quantitative_reasoning": 95,
+        "research": 84,
+        "communication": 68
+      },
+      "skill_evidence_counts": {
+        "analytical_thinking": 12,
+        "data_analysis": 14,
+        "problem_solving": 11,
+        "programming": 13,
+        "quantitative_reasoning": 14,
+        "research": 9,
+        "communication": 8
+      },
+      "subject_scores": {
+        "mathematics": 95,
+        "computer_science": 93,
+        "science": 82
+      },
+      "subject_evidence_counts": {
+        "mathematics": 15,
+        "computer_science": 14,
+        "science": 8
+      }
+    },
+    {
+      "student_id": "benchmark-software",
+      "expected_top_1": "software_engineer",
+      "skill_mastery": {
+        "analytical_thinking": 82,
+        "attention_to_detail": 88,
+        "collaboration": 76,
+        "problem_solving": 96,
+        "programming": 98,
+        "quantitative_reasoning": 75
+      },
+      "skill_evidence_counts": {
+        "analytical_thinking": 9,
+        "attention_to_detail": 10,
+        "collaboration": 8,
+        "problem_solving": 14,
+        "programming": 15,
+        "quantitative_reasoning": 8
+      },
+      "subject_scores": {
+        "computer_science": 98,
+        "mathematics": 79
+      },
+      "subject_evidence_counts": {
+        "computer_science": 16,
+        "mathematics": 9
+      }
+    },
+    {
+      "student_id": "benchmark-data-analyst",
+      "expected_top_1": "data_analyst",
+      "skill_mastery": {
+        "analytical_thinking": 91,
+        "attention_to_detail": 91,
+        "business_acumen": 87,
+        "communication": 85,
+        "data_analysis": 94,
+        "programming": 58,
+        "quantitative_reasoning": 84
+      },
+      "skill_evidence_counts": {
+        "analytical_thinking": 12,
+        "attention_to_detail": 11,
+        "business_acumen": 10,
+        "communication": 10,
+        "data_analysis": 14,
+        "programming": 7,
+        "quantitative_reasoning": 11
+      },
+      "subject_scores": {
+        "business": 88,
+        "computer_science": 65,
+        "mathematics": 85
+      },
+      "subject_evidence_counts": {
+        "business": 11,
+        "computer_science": 7,
+        "mathematics": 12
+      }
+    },
+    {
+      "student_id": "benchmark-finance",
+      "expected_top_1": "financial_analyst",
+      "skill_mastery": {
+        "analytical_thinking": 90,
+        "attention_to_detail": 94,
+        "business_acumen": 96,
+        "communication": 69,
+        "data_analysis": 80,
+        "quantitative_reasoning": 97
+      },
+      "skill_evidence_counts": {
+        "analytical_thinking": 12,
+        "attention_to_detail": 13,
+        "business_acumen": 14,
+        "communication": 7,
+        "data_analysis": 10,
+        "quantitative_reasoning": 15
+      },
+      "subject_scores": {
+        "business": 97,
+        "mathematics": 96
+      },
+      "subject_evidence_counts": {
+        "business": 15,
+        "mathematics": 15
+      }
+    },
+    {
+      "student_id": "benchmark-teacher",
+      "expected_top_1": "teacher_educator",
+      "skill_mastery": {
+        "collaboration": 90,
+        "communication": 96,
+        "creativity": 78,
+        "leadership": 86,
+        "research": 72,
+        "teaching": 98,
+        "writing": 82
+      },
+      "skill_evidence_counts": {
+        "collaboration": 11,
+        "communication": 14,
+        "creativity": 9,
+        "leadership": 10,
+        "research": 8,
+        "teaching": 15,
+        "writing": 10
+      },
+      "subject_scores": {
+        "english": 91,
+        "mathematics": 73,
+        "science": 76,
+        "social_science": 89
+      },
+      "subject_evidence_counts": {
+        "english": 13,
+        "mathematics": 7,
+        "science": 8,
+        "social_science": 12
+      }
+    },
+    {
+      "student_id": "benchmark-writer",
+      "expected_top_1": "technical_writer",
+      "skill_mastery": {
+        "attention_to_detail": 93,
+        "communication": 94,
+        "creativity": 86,
+        "programming": 55,
+        "research": 89,
+        "writing": 98
+      },
+      "skill_evidence_counts": {
+        "attention_to_detail": 12,
+        "communication": 13,
+        "creativity": 11,
+        "programming": 6,
+        "research": 12,
+        "writing": 15
+      },
+      "subject_scores": {
+        "computer_science": 68,
+        "english": 98
+      },
+      "subject_evidence_counts": {
+        "computer_science": 7,
+        "english": 16
+      }
+    },
+    {
+      "student_id": "benchmark-ux",
+      "expected_top_1": "ux_researcher",
+      "skill_mastery": {
+        "analytical_thinking": 82,
+        "collaboration": 87,
+        "communication": 94,
+        "creativity": 95,
+        "research": 98,
+        "writing": 84
+      },
+      "skill_evidence_counts": {
+        "analytical_thinking": 9,
+        "collaboration": 11,
+        "communication": 13,
+        "creativity": 14,
+        "research": 15,
+        "writing": 10
+      },
+      "subject_scores": {
+        "english": 86,
+        "social_science": 98
+      },
+      "subject_evidence_counts": {
+        "english": 10,
+        "social_science": 15
+      }
+    },
+    {
+      "student_id": "benchmark-product",
+      "expected_top_1": "product_manager",
+      "skill_mastery": {
+        "analytical_thinking": 84,
+        "business_acumen": 97,
+        "collaboration": 93,
+        "communication": 96,
+        "creativity": 82,
+        "data_analysis": 72,
+        "leadership": 95,
+        "problem_solving": 87
+      },
+      "skill_evidence_counts": {
+        "analytical_thinking": 10,
+        "business_acumen": 15,
+        "collaboration": 13,
+        "communication": 14,
+        "creativity": 10,
+        "data_analysis": 8,
+        "leadership": 14,
+        "problem_solving": 11
+      },
+      "subject_scores": {
+        "business": 98,
+        "computer_science": 69,
+        "mathematics": 72
+      },
+      "subject_evidence_counts": {
+        "business": 15,
+        "computer_science": 7,
+        "mathematics": 8
+      }
+    }
+  ]
+}
+

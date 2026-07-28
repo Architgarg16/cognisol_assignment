@@ -1,0 +1,177 @@
+{
+  "catalog_version": "1.0",
+  "feature_schema": {
+    "skills": [
+      "analytical_thinking",
+      "attention_to_detail",
+      "business_acumen",
+      "collaboration",
+      "communication",
+      "creativity",
+      "data_analysis",
+      "leadership",
+      "problem_solving",
+      "programming",
+      "quantitative_reasoning",
+      "research",
+      "teaching",
+      "writing"
+    ],
+    "subjects": [
+      "business",
+      "computer_science",
+      "english",
+      "mathematics",
+      "science",
+      "social_science"
+    ]
+  },
+  "careers": [
+    {
+      "id": "data_scientist",
+      "title": "Data Scientist",
+      "description": "Uses statistics, programming, and research to build data-driven products and explanations.",
+      "skill_weights": {
+        "analytical_thinking": 0.9,
+        "data_analysis": 1.0,
+        "problem_solving": 0.75,
+        "programming": 0.9,
+        "quantitative_reasoning": 0.95,
+        "research": 0.65,
+        "communication": 0.35
+      },
+      "subject_weights": {
+        "mathematics": 1.0,
+        "computer_science": 0.85,
+        "science": 0.45
+      }
+    },
+    {
+      "id": "software_engineer",
+      "title": "Software Engineer",
+      "description": "Designs, implements, tests, and maintains reliable software systems.",
+      "skill_weights": {
+        "analytical_thinking": 0.75,
+        "attention_to_detail": 0.65,
+        "collaboration": 0.55,
+        "problem_solving": 1.0,
+        "programming": 1.0,
+        "quantitative_reasoning": 0.5
+      },
+      "subject_weights": {
+        "computer_science": 1.0,
+        "mathematics": 0.5
+      }
+    },
+    {
+      "id": "data_analyst",
+      "title": "Data Analyst",
+      "description": "Transforms data into reliable reports, metrics, and decisions for organizations.",
+      "skill_weights": {
+        "analytical_thinking": 0.95,
+        "attention_to_detail": 0.75,
+        "business_acumen": 0.65,
+        "communication": 0.65,
+        "data_analysis": 1.0,
+        "programming": 0.45,
+        "quantitative_reasoning": 0.8
+      },
+      "subject_weights": {
+        "business": 0.7,
+        "computer_science": 0.4,
+        "mathematics": 0.75
+      }
+    },
+    {
+      "id": "financial_analyst",
+      "title": "Financial Analyst",
+      "description": "Evaluates financial information, risk, and business performance to support decisions.",
+      "skill_weights": {
+        "analytical_thinking": 0.9,
+        "attention_to_detail": 0.9,
+        "business_acumen": 0.95,
+        "communication": 0.4,
+        "data_analysis": 0.65,
+        "quantitative_reasoning": 1.0
+      },
+      "subject_weights": {
+        "business": 1.0,
+        "mathematics": 0.95
+      }
+    },
+    {
+      "id": "teacher_educator",
+      "title": "Teacher / Educator",
+      "description": "Creates learning experiences, explains ideas, and supports learner development.",
+      "skill_weights": {
+        "collaboration": 0.75,
+        "communication": 0.95,
+        "creativity": 0.45,
+        "leadership": 0.6,
+        "research": 0.4,
+        "teaching": 1.0,
+        "writing": 0.45
+      },
+      "subject_weights": {
+        "english": 0.65,
+        "mathematics": 0.4,
+        "science": 0.4,
+        "social_science": 0.55
+      }
+    },
+    {
+      "id": "technical_writer",
+      "title": "Technical Writer / Editor",
+      "description": "Researches complex topics and communicates them through accurate, accessible content.",
+      "skill_weights": {
+        "attention_to_detail": 0.8,
+        "communication": 0.9,
+        "creativity": 0.55,
+        "programming": 0.25,
+        "research": 0.75,
+        "writing": 1.0
+      },
+      "subject_weights": {
+        "computer_science": 0.35,
+        "english": 1.0
+      }
+    },
+    {
+      "id": "ux_researcher",
+      "title": "UX Researcher",
+      "description": "Studies user behavior and turns qualitative and quantitative evidence into product insights.",
+      "skill_weights": {
+        "analytical_thinking": 0.7,
+        "collaboration": 0.65,
+        "communication": 0.9,
+        "creativity": 0.75,
+        "research": 1.0,
+        "writing": 0.55
+      },
+      "subject_weights": {
+        "english": 0.55,
+        "social_science": 1.0
+      }
+    },
+    {
+      "id": "product_manager",
+      "title": "Product Manager",
+      "description": "Coordinates users, business goals, and technical teams to guide product decisions.",
+      "skill_weights": {
+        "analytical_thinking": 0.75,
+        "business_acumen": 0.95,
+        "collaboration": 0.9,
+        "communication": 0.95,
+        "creativity": 0.55,
+        "data_analysis": 0.45,
+        "leadership": 0.9,
+        "problem_solving": 0.7
+      },
+      "subject_weights": {
+        "business": 1.0,
+        "computer_science": 0.35,
+        "mathematics": 0.3
+      }
+    }
+  ]
+}
