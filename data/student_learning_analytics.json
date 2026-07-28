@@ -1,0 +1,8271 @@
+{
+  "metadata": {
+    "dataset_version": "learning-demo-v1",
+    "description": "Deterministic synthetic data for assignment testing.",
+    "xp_policy": {
+      "rate": 0.1,
+      "status_multipliers": {
+        "Present": 1.0,
+        "Late": 0.75,
+        "Absent": 0.0
+      }
+    },
+    "counts": {
+      "students": 10,
+      "institutes": 2,
+      "courses": 2,
+      "class_sessions": 100,
+      "attendance_records": 1000
+    }
+  },
+  "students": [
+    {
+      "student_id": "STU-001",
+      "name": "Aarav Sharma",
+      "grade": "Grade 10",
+      "parent_name": "Neha Sharma",
+      "profile_preset": "Demo Student"
+    },
+    {
+      "student_id": "STU-002",
+      "name": "Ishita Verma",
+      "grade": "Grade 11",
+      "parent_name": "Rohit Verma",
+      "profile_preset": "Data Scientist Archetype"
+    },
+    {
+      "student_id": "STU-003",
+      "name": "Kabir Singh",
+      "grade": "Grade 10",
+      "parent_name": "Anita Singh",
+      "profile_preset": "Software Engineer Archetype"
+    },
+    {
+      "student_id": "STU-004",
+      "name": "Meera Iyer",
+      "grade": "Grade 11",
+      "parent_name": "Lakshmi Iyer",
+      "profile_preset": "Teacher Educator Archetype"
+    },
+    {
+      "student_id": "STU-005",
+      "name": "Riya Patel",
+      "grade": "Grade 9",
+      "parent_name": "Jay Patel",
+      "profile_preset": "Data Analyst Archetype"
+    },
+    {
+      "student_id": "STU-006",
+      "name": "Arjun Rao",
+      "grade": "Grade 12",
+      "parent_name": "Kavita Rao",
+      "profile_preset": "Financial Analyst Archetype"
+    },
+    {
+      "student_id": "STU-007",
+      "name": "Sana Khan",
+      "grade": "Grade 10",
+      "parent_name": "Farah Khan",
+      "profile_preset": "Technical Writer Editor Archetype"
+    },
+    {
+      "student_id": "STU-008",
+      "name": "Dev Malhotra",
+      "grade": "Grade 11",
+      "parent_name": "Pooja Malhotra",
+      "profile_preset": "Ux Researcher Archetype"
+    },
+    {
+      "student_id": "STU-009",
+      "name": "Anaya Bose",
+      "grade": "Grade 9",
+      "parent_name": "Sanjay Bose",
+      "profile_preset": "Product Manager Archetype"
+    },
+    {
+      "student_id": "STU-010",
+      "name": "Vivaan Das",
+      "grade": "Grade 12",
+      "parent_name": "Maya Das",
+      "profile_preset": "Demo Student"
+    }
+  ],
+  "institutes": [
+    {
+      "institute_id": "INS-001",
+      "name": "Northstar Mathematics Institute",
+      "city": "Bengaluru"
+    },
+    {
+      "institute_id": "INS-002",
+      "name": "BrightPath English Academy",
+      "city": "Bengaluru"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "title": "Applied Mathematics",
+      "subject": "Mathematics",
+      "objectives": [
+        "Model a real-world problem using equations",
+        "Interpret patterns in statistical data",
+        "Explain a multi-step quantitative solution",
+        "Validate a solution using an alternative method"
+      ],
+      "skills": [
+        "Quantitative Reasoning",
+        "Problem Solving",
+        "Data Analysis",
+        "Attention To Detail"
+      ]
+    },
+    {
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "title": "Academic English",
+      "subject": "English",
+      "objectives": [
+        "Build a clear evidence-based argument",
+        "Summarize a complex text accurately",
+        "Present an idea to a peer audience",
+        "Revise writing using structured feedback"
+      ],
+      "skills": [
+        "Communication",
+        "Writing",
+        "Research",
+        "Creativity"
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "student_id": "STU-001",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-001",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-002",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-002",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-003",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-003",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-004",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-004",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-005",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-005",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-006",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-006",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-007",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-007",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-008",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-008",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-009",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-009",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-010",
+      "institute_id": "INS-001",
+      "course_id": "CRS-MATH",
+      "status": "active"
+    },
+    {
+      "student_id": "STU-010",
+      "institute_id": "INS-002",
+      "course_id": "CRS-ENG",
+      "status": "active"
+    }
+  ],
+  "class_sessions": [
+    {
+      "class_id": "CLS-001",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-06",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-002",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-06",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-003",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-07",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-004",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-07",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-005",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-08",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-006",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-08",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-007",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-09",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-008",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-09",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-009",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-10",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-010",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-10",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-011",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-11",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-012",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-11",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-013",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-12",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-014",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-12",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-015",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-13",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-016",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-13",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-017",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-14",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-018",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-14",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-019",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-15",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-020",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-15",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-021",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-16",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-022",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-16",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-023",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-17",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-024",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-17",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-025",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-18",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-026",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-18",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-027",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-19",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-028",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-19",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-029",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-20",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-030",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-20",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-031",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-21",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-032",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-21",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-033",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-22",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-034",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-22",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-035",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-23",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-036",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-23",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-037",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-24",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-038",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-24",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-039",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-25",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-040",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-25",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-041",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-26",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-042",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-26",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-043",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-27",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-044",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-27",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-045",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-28",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-046",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-28",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-047",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-29",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-048",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-29",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-049",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-04-30",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-050",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-04-30",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-051",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-01",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-052",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-01",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-053",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-02",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-054",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-02",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-055",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-03",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-056",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-03",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-057",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-04",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-058",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-04",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-059",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-05",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-060",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-05",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-061",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-06",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-062",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-06",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-063",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-07",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-064",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-07",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-065",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-08",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-066",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-08",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-067",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-09",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-068",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-09",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-069",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-10",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-070",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-10",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-071",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-11",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-072",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-11",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-073",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-12",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-074",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-12",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-075",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-13",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-076",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-13",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-077",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-14",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-078",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-14",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-079",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-15",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-080",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-15",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-081",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-16",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-082",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-16",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-083",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-17",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-084",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-17",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-085",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-18",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-086",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-18",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-087",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-19",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-088",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-19",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-089",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-20",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-090",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-20",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-091",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-21",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-092",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-21",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    },
+    {
+      "class_id": "CLS-093",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-22",
+      "minutes": 60,
+      "learning_objective": "Explain a multi-step quantitative solution",
+      "primary_skill": "Data Analysis"
+    },
+    {
+      "class_id": "CLS-094",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-22",
+      "minutes": 75,
+      "learning_objective": "Present an idea to a peer audience",
+      "primary_skill": "Research"
+    },
+    {
+      "class_id": "CLS-095",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-23",
+      "minutes": 60,
+      "learning_objective": "Validate a solution using an alternative method",
+      "primary_skill": "Attention To Detail"
+    },
+    {
+      "class_id": "CLS-096",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-23",
+      "minutes": 75,
+      "learning_objective": "Revise writing using structured feedback",
+      "primary_skill": "Creativity"
+    },
+    {
+      "class_id": "CLS-097",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-24",
+      "minutes": 60,
+      "learning_objective": "Model a real-world problem using equations",
+      "primary_skill": "Quantitative Reasoning"
+    },
+    {
+      "class_id": "CLS-098",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-24",
+      "minutes": 75,
+      "learning_objective": "Build a clear evidence-based argument",
+      "primary_skill": "Communication"
+    },
+    {
+      "class_id": "CLS-099",
+      "course_id": "CRS-MATH",
+      "institute_id": "INS-001",
+      "date": "2026-05-25",
+      "minutes": 60,
+      "learning_objective": "Interpret patterns in statistical data",
+      "primary_skill": "Problem Solving"
+    },
+    {
+      "class_id": "CLS-100",
+      "course_id": "CRS-ENG",
+      "institute_id": "INS-002",
+      "date": "2026-05-25",
+      "minutes": 75,
+      "learning_objective": "Summarize a complex text accurately",
+      "primary_skill": "Writing"
+    }
+  ],
+  "attendance_records": [
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-001",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-001",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-002",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-002",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-003",
+      "status": "Late",
+      "evidence_score": 85,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-003",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-003",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-004",
+      "status": "Late",
+      "evidence_score": 88,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-004",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-004",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-005",
+      "status": "Late",
+      "evidence_score": 81,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-005",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-005",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-006",
+      "status": "Late",
+      "evidence_score": 84,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-006",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-006",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-007",
+      "status": "Late",
+      "evidence_score": 74,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-007",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-007",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-008",
+      "status": "Late",
+      "evidence_score": 77,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-008",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-008",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-009",
+      "status": "Late",
+      "evidence_score": 70,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-009",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-010",
+      "status": "Late",
+      "evidence_score": 73,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-010",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-011",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-011",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-011",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-011",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-011",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-011",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-011",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-011",
+      "status": "Late",
+      "evidence_score": 96,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-011",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-011",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-012",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-012",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-012",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-012",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-012",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-012",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-012",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-012",
+      "status": "Late",
+      "evidence_score": 66,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-012",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-012",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-013",
+      "status": "Late",
+      "evidence_score": 92,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-013",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-014",
+      "status": "Late",
+      "evidence_score": 95,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-014",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-015",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-015",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-015",
+      "status": "Late",
+      "evidence_score": 85,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-016",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-016",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-016",
+      "status": "Late",
+      "evidence_score": 88,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-017",
+      "status": "Late",
+      "evidence_score": 79,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-017",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-017",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-017",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-017",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-017",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-017",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-017",
+      "status": "Late",
+      "evidence_score": 81,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-017",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-017",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-018",
+      "status": "Late",
+      "evidence_score": 82,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-018",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-018",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-018",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-018",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-018",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-018",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-018",
+      "status": "Late",
+      "evidence_score": 84,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-018",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-018",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-019",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-019",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-020",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-020",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-021",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-021",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-021",
+      "status": "Late",
+      "evidence_score": 68,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-021",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-021",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-021",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-021",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-021",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-021",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-021",
+      "status": "Late",
+      "evidence_score": 70,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-022",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-022",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-022",
+      "status": "Late",
+      "evidence_score": 71,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-022",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-022",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-022",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-022",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-022",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-022",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-022",
+      "status": "Late",
+      "evidence_score": 73,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-023",
+      "status": "Late",
+      "evidence_score": 64,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-023",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-023",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-024",
+      "status": "Late",
+      "evidence_score": 67,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-024",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-024",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-025",
+      "status": "Late",
+      "evidence_score": 90,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-025",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-025",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-026",
+      "status": "Late",
+      "evidence_score": 93,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-026",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-026",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-027",
+      "status": "Late",
+      "evidence_score": 86,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-027",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-027",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-028",
+      "status": "Late",
+      "evidence_score": 89,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-028",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-028",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-029",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-029",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-029",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-029",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-029",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-029",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-029",
+      "status": "Late",
+      "evidence_score": 79,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-029",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-029",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-029",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-030",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-030",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-030",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-030",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-030",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-030",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-030",
+      "status": "Late",
+      "evidence_score": 82,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-030",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-030",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-030",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-031",
+      "status": "Late",
+      "evidence_score": 75,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-031",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-032",
+      "status": "Late",
+      "evidence_score": 78,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-032",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-033",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-033",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-033",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-033",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-033",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-033",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-033",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-033",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-033",
+      "status": "Late",
+      "evidence_score": 68,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-033",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-034",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-034",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-034",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-034",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-034",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-034",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-034",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-034",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-034",
+      "status": "Late",
+      "evidence_score": 71,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-034",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-035",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-035",
+      "status": "Late",
+      "evidence_score": 64,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-035",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-036",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-036",
+      "status": "Late",
+      "evidence_score": 67,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-036",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-037",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-037",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-038",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-038",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-039",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-039",
+      "status": "Late",
+      "evidence_score": 84,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-039",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-039",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-039",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-039",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-039",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-039",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-039",
+      "status": "Late",
+      "evidence_score": 86,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-039",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-040",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-040",
+      "status": "Late",
+      "evidence_score": 87,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-040",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-040",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-040",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-040",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-040",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-040",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-040",
+      "status": "Late",
+      "evidence_score": 89,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-040",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-041",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-041",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-042",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-042",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-043",
+      "status": "Late",
+      "evidence_score": 73,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-043",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-043",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-044",
+      "status": "Late",
+      "evidence_score": 76,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-044",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-044",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-045",
+      "status": "Late",
+      "evidence_score": 69,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-045",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-045",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-046",
+      "status": "Late",
+      "evidence_score": 72,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-046",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-046",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-047",
+      "status": "Late",
+      "evidence_score": 95,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-047",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-047",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-048",
+      "status": "Late",
+      "evidence_score": 65,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-048",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-048",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-049",
+      "status": "Late",
+      "evidence_score": 91,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-049",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-050",
+      "status": "Late",
+      "evidence_score": 94,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-050",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-051",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-051",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-051",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-051",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-051",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-051",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-051",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-051",
+      "status": "Late",
+      "evidence_score": 84,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-051",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-051",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-052",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-052",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-052",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-052",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-052",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-052",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-052",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-052",
+      "status": "Late",
+      "evidence_score": 87,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-052",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-052",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-053",
+      "status": "Late",
+      "evidence_score": 80,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-053",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-054",
+      "status": "Late",
+      "evidence_score": 83,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-054",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-055",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-055",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-055",
+      "status": "Late",
+      "evidence_score": 73,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-056",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-056",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-056",
+      "status": "Late",
+      "evidence_score": 76,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-057",
+      "status": "Late",
+      "evidence_score": 67,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-057",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-057",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-057",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-057",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-057",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-057",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-057",
+      "status": "Late",
+      "evidence_score": 69,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-057",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-057",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-058",
+      "status": "Late",
+      "evidence_score": 70,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-058",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-058",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-058",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-058",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-058",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-058",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-058",
+      "status": "Late",
+      "evidence_score": 72,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-058",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-058",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-059",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-059",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-060",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-060",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-061",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-061",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-061",
+      "status": "Late",
+      "evidence_score": 89,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-061",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-061",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-061",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-061",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-061",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-061",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-061",
+      "status": "Late",
+      "evidence_score": 91,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-062",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-062",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-062",
+      "status": "Late",
+      "evidence_score": 92,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-062",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-062",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-062",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-062",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-062",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-062",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-062",
+      "status": "Late",
+      "evidence_score": 94,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-063",
+      "status": "Late",
+      "evidence_score": 85,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-063",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-063",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-064",
+      "status": "Late",
+      "evidence_score": 88,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-064",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-064",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-065",
+      "status": "Late",
+      "evidence_score": 78,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-065",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-065",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-066",
+      "status": "Late",
+      "evidence_score": 81,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-066",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-066",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-067",
+      "status": "Late",
+      "evidence_score": 74,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-067",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-067",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-068",
+      "status": "Late",
+      "evidence_score": 77,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-068",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-068",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-069",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-069",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-069",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-069",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-069",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-069",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-069",
+      "status": "Late",
+      "evidence_score": 67,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-069",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-069",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-069",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-070",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-070",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-070",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-070",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-070",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-070",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-070",
+      "status": "Late",
+      "evidence_score": 70,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-070",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-070",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-070",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-071",
+      "status": "Late",
+      "evidence_score": 96,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-071",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-072",
+      "status": "Late",
+      "evidence_score": 66,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-072",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-073",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-073",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-073",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-073",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-073",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-073",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-073",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-073",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-073",
+      "status": "Late",
+      "evidence_score": 89,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-073",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-074",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-074",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-074",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-074",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-074",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-074",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-074",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-074",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-074",
+      "status": "Late",
+      "evidence_score": 92,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-074",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-075",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-075",
+      "status": "Late",
+      "evidence_score": 85,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-075",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-076",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-076",
+      "status": "Late",
+      "evidence_score": 88,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-076",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-077",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-077",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-078",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-078",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-079",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-079",
+      "status": "Late",
+      "evidence_score": 72,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-079",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-079",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-079",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-079",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-079",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-079",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-079",
+      "status": "Late",
+      "evidence_score": 74,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-079",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-080",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-080",
+      "status": "Late",
+      "evidence_score": 75,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-080",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-080",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-080",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-080",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-080",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-080",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-080",
+      "status": "Late",
+      "evidence_score": 77,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-080",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-081",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-081",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-082",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-082",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-083",
+      "status": "Late",
+      "evidence_score": 94,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-083",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-083",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-084",
+      "status": "Late",
+      "evidence_score": 64,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-084",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-084",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-085",
+      "status": "Late",
+      "evidence_score": 90,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-085",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-085",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-086",
+      "status": "Late",
+      "evidence_score": 93,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-086",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-086",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-087",
+      "status": "Late",
+      "evidence_score": 83,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-087",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-087",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-088",
+      "status": "Late",
+      "evidence_score": 86,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-088",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-088",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-089",
+      "status": "Late",
+      "evidence_score": 79,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-089",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-090",
+      "status": "Late",
+      "evidence_score": 82,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-090",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-091",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-091",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-091",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-091",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-091",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-091",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-091",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-091",
+      "status": "Late",
+      "evidence_score": 72,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-091",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-091",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-092",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-092",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-092",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-092",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-092",
+      "status": "Present",
+      "evidence_score": 93,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-092",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-092",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-092",
+      "status": "Late",
+      "evidence_score": 75,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-092",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-092",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-093",
+      "status": "Late",
+      "evidence_score": 68,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-093",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-094",
+      "status": "Late",
+      "evidence_score": 71,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 86,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-094",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-095",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-095",
+      "status": "Present",
+      "evidence_score": 89,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-095",
+      "status": "Late",
+      "evidence_score": 94,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 90,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-096",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 72,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 77,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 82,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 87,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-096",
+      "status": "Present",
+      "evidence_score": 92,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-096",
+      "status": "Late",
+      "evidence_score": 64,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-097",
+      "status": "Late",
+      "evidence_score": 88,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-097",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-097",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-097",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-097",
+      "status": "Present",
+      "evidence_score": 75,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-097",
+      "status": "Present",
+      "evidence_score": 80,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-097",
+      "status": "Present",
+      "evidence_score": 85,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-097",
+      "status": "Late",
+      "evidence_score": 90,
+      "awarded_xp": 4.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-097",
+      "status": "Present",
+      "evidence_score": 95,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-097",
+      "status": "Present",
+      "evidence_score": 67,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-098",
+      "status": "Late",
+      "evidence_score": 91,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-098",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-098",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-098",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-098",
+      "status": "Present",
+      "evidence_score": 78,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-098",
+      "status": "Present",
+      "evidence_score": 83,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-098",
+      "status": "Present",
+      "evidence_score": 88,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-098",
+      "status": "Late",
+      "evidence_score": 93,
+      "awarded_xp": 5.62
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-098",
+      "status": "Present",
+      "evidence_score": 65,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-098",
+      "status": "Present",
+      "evidence_score": 70,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 81,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-099",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 91,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 96,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 68,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-099",
+      "status": "Present",
+      "evidence_score": 73,
+      "awarded_xp": 6.0
+    },
+    {
+      "student_id": "STU-001",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 64,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-002",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 69,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-003",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 74,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-004",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 79,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-005",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 84,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-006",
+      "class_id": "CLS-100",
+      "status": "Absent",
+      "evidence_score": null,
+      "awarded_xp": 0.0
+    },
+    {
+      "student_id": "STU-007",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 94,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-008",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 66,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-009",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 71,
+      "awarded_xp": 7.5
+    },
+    {
+      "student_id": "STU-010",
+      "class_id": "CLS-100",
+      "status": "Present",
+      "evidence_score": 76,
+      "awarded_xp": 7.5
+    }
+  ],
+  "parent_goals": [
+    {
+      "goal_id": "GOAL-001",
+      "student_id": "STU-001",
+      "created_by": "Neha Sharma",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-002",
+      "student_id": "STU-002",
+      "created_by": "Rohit Verma",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-003",
+      "student_id": "STU-003",
+      "created_by": "Anita Singh",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-004",
+      "student_id": "STU-004",
+      "created_by": "Lakshmi Iyer",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-005",
+      "student_id": "STU-005",
+      "created_by": "Jay Patel",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-006",
+      "student_id": "STU-006",
+      "created_by": "Kavita Rao",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-007",
+      "student_id": "STU-007",
+      "created_by": "Farah Khan",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-008",
+      "student_id": "STU-008",
+      "created_by": "Pooja Malhotra",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-009",
+      "student_id": "STU-009",
+      "created_by": "Sanjay Bose",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    },
+    {
+      "goal_id": "GOAL-010",
+      "student_id": "STU-010",
+      "created_by": "Maya Das",
+      "title": "Reach 550 learning XP",
+      "metric": "cumulative_xp",
+      "baseline": 0,
+      "target": 550,
+      "due_date": "2026-08-31"
+    }
+  ]
+}

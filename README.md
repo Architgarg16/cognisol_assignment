@@ -1,8 +1,27 @@
-# Explainable ML Career Recommender
+# Student Learning Analytics Platform
 
-This component implements the career recommendation requirement for the Student Learning Analytics Platform.
+This repository provides an assignment-aligned Streamlit testing UI, a
+deterministic dummy learning dataset, and an explainable ML career recommender.
+The UI follows one student from raw learning events to decisions:
 
-It is a content-based machine-learning recommender:
+1. select a student enrolled in multiple institutes;
+2. inspect Present, Late, and Absent attendance;
+3. audit configurable XP calculations;
+4. review learning objectives, subject mastery, skills, streaks, and portfolio;
+5. create a parent goal and monitor its progress;
+6. inspect generated insights;
+7. receive evidence-backed career recommendations.
+
+The included deterministic dataset contains 10 students, 2 institutes,
+2 courses, 100 class sessions, and attendance evidence for all students.
+
+> Scope note: this package contains the UI, dummy dataset, analytics logic, and
+> ML recommender. A database-backed REST API still needs to be implemented to
+> satisfy the complete technical assignment acceptance criteria.
+
+## Explainable ML career recommender
+
+The career component uses content-based machine learning:
 
 1. Student mastery and subject performance are converted into a normalized feature vector.
 2. Career definitions are converted into vectors in the same feature space.
@@ -20,16 +39,19 @@ See [`PYCHARM_SETUP.md`](PYCHARM_SETUP.md) for exact instructions and the includ
 
 ## Streamlit web UI
 
-The interactive dashboard provides:
+The testing UI is organized around the assignment requirements:
 
-- preset student archetypes
-- editable mastery and evidence inputs
-- top one to five ranked career paths
-- match, confidence, alignment, and coverage metrics
-- strength explanations and development gaps
-- missing-evidence warnings
-- career comparison chart
-- model diagnostics and JSON download
+- **Overview** - multi-institute enrollment, XP, attendance, streaks, overall
+  score, generated insights, and recent class evidence.
+- **Attendance & XP** - attendance distribution, weekly trend, course XP,
+  configurable XP rate, streak logic, and auditable class records.
+- **Learning Portfolio** - subject performance, skill mastery, learning
+  objectives, explainable overall score, and downloadable portfolio.
+- **Parent Goals** - create measurable goals and calculate live progress.
+- **Career Recommendations** - explainable cosine-KNN ranking, evidence
+  coverage, strengths, gaps, and JSON export.
+- **System & Data** - assignment coverage, dataset scale, model card, and
+  honest technical implementation status.
 
 Run outside PyCharm with:
 
@@ -91,17 +113,20 @@ Only observations supported by at least three evidence events are eligible. A ca
 |   |-- evaluation.json
 |   `-- model_card.json
 |-- data/career_profiles.json
+|-- data/student_learning_analytics.json
 |-- examples/
 |   |-- benchmark_profiles.json
 |   `-- student_profile.json
 |-- scripts/
 |   |-- evaluate_model.py
+|   |-- generate_learning_data.py
 |   |-- recommend.py
 |   `-- train_model.py
 |-- src/career_recommender/
 |   |-- __init__.py
 |   `-- recommender.py
 |-- tests/
+|   |-- test_learning_dataset.py
 |   |-- test_recommender.py
 |   `-- test_streamlit_app.py
 |-- main.py
@@ -134,6 +159,15 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e .
 ```
+
+## Regenerate the deterministic dummy dataset
+
+```bash
+python scripts/generate_learning_data.py
+```
+
+The generator is deterministic, so tests and interview explanations remain
+reproducible.
 
 ## Train
 
